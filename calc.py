@@ -46,4 +46,15 @@ for i in range (0, 10):
     sum = prevnum + i
     print(f'current number is {i}, previous number is {prevnum}, sum is {sum}')
     prevnum = i
+
+------------------------------------------------------------------------------------------------------
+string = input("give a string ")
+
+print(string[0::2])
+
+for i in range(len(string)):
+    if (i%2 == 0):
+        print(string[i])
+
+    
 '''
