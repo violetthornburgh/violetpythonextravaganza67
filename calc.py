@@ -56,5 +56,15 @@ for i in range(len(string)):
     if (i%2 == 0):
         print(string[i])
 
+--------------------------------------------------------------------------------------------------------
+string = input("give a string ")
+n = int(input("give me a number "))
+
+
+def remove_chars(string, n):
+    print(string[n:])
+    
+remove_chars(string, n)
+
     
 '''
