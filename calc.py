@@ -38,3 +38,12 @@ print(f'remainder of {a} and {b} is {mod(a, b)}')
     #print(f'product of {a} and {b} is {prod(a, b)}')
 #else:
     #print(f'Sum of {a} and {b} is {sum(a, b)}')
+#-------------------------------------------------------------------------------------------------
+'''
+prevnum = 0
+
+for i in range (0, 10):
+    sum = prevnum + i
+    print(f'current number is {i}, previous number is {prevnum}, sum is {sum}')
+    prevnum = i
+'''
