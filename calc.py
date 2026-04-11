@@ -32,3 +32,9 @@ print(f'product of {a} and {b} is {prod(a, b)}')
 print(f'Sum of {a} and {b} is {sum(a, b)}')
 
 print(f'remainder of {a} and {b} is {mod(a, b)}')
+
+
+#if (a*b <= 1000):
+    #print(f'product of {a} and {b} is {prod(a, b)}')
+#else:
+    #print(f'Sum of {a} and {b} is {sum(a, b)}')
